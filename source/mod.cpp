@@ -1,7 +1,7 @@
 /// Name of your mod
-name = "Zulu-Alpha Uniforms v3.2";
+name = "Zulu-Alpha Uniforms v3.3";
 /// Picture displayed from the expansions menu/ Optimal size is 2048x1024, other sizes work too
-author = Twak
+author = Zulu-Alpha Bakkies
 ///
 picture = "Icon\Logo.paa";
 /// Display next to the item added by the mod
@@ -13,7 +13,7 @@ logoOver = "Icon\LogoSmallOver.paa";
 /// Website URL, that can accessed from the expansions menu
 action = "http://zulu-alpha.co.za/";
 /// Tool tip displayed when the mouse is left over, in the main menu
-tooltipOwned = "Zulu-Alpha Uniforms v3.2";
+tooltipOwned = "Zulu-Alpha Uniforms v3.3";
 /// Color used for DLC stripes and backgrounds (RGBA)
 dlcColor[] =
 {
