@@ -1,0 +1,101 @@
+ZA UNIFORMS
+Mod class names
+
+
+	class ZAbadge														//ZA insignia badge
+
+//Zulu Alpha Insignia that is displayed on left shoulder, insignia is referenced on all base uniforms below.
+//to add insignia to any other uniforms not part of the za_camo mod use: [this,"ZAbadge"] call BIS_fnc_setUnitInsignia;
+
+	FATIGUES
+
+		class za_fat1_soldier_brown																													//Long sleeves
+		class za_fat1_soldier_arid
+		class za_fat1_soldier_trans
+		class za_fat1_soldier_candidate
+
+		class za_fat2_soldier_brown																													//Rolled-up sleeves
+		class za_fat2_soldier_arid
+		class za_fat2_soldier_trans
+
+		class za_fat3_officer_brown																													//Officer's fatigues
+		class za_fat3_officer_arid
+		class za_fat3_officer_trans
+
+
+	BACKPACKS
+
+		class za_bag_carryall_brown
+		class za_bag_carryall_arid
+		class za_bag_carryall_trans
+
+		class za_bag_bergen_brown
+		class za_bag_bergen_arid
+		class za_bag_bergen_trans
+
+	VESTS
+		class za_vst_carrierlite_brown;
+		class za_vst_carrierlite_arid;
+		class za_vst_carrierlite_trans;
+
+		class za_vst_carrier_brown;
+		class za_vst_carrier_arid;
+		class za_vst_carrier_trans;
+
+		class za_vst_modularlite_brown;
+		class za_vst_modularlite_arid;
+		class za_vst_modularlite_trans;
+
+		class za_vst_modular_brown;
+		class za_vst_modular_arid;
+		class za_vst_modular_trans;
+
+	HEADGEAR
+
+		class za_hel_beret_brown;
+
+		class za_hel_canvas_brown;
+		class za_hel_canvas_arid;
+		class za_hel_canvas_trans;
+
+		class za_hel_Boonie_brown;
+		class za_hel_Boonie_arid;
+		class za_hel_Boonie_trans;
+
+		class za_hel_milcap_brown;
+		class za_hel_milcap_arid;
+		class za_hel_milcap_trans;
+
+		class za_hel_crewhelmet_brown;
+		class za_hel_crewhelmet_medic;
+
+		class za_hel_helihelmet_ghostrider;
+		class za_hel_helihelmet_medic;
+		class za_hel_helihelmet_phoenix;
+		class za_hel_helihelmet_raven;
+
+
+Woodlands Codes
+
+this forceAddUniform "za_fat1_soldier_wood"; or this forceAddUniform "za_fat2_soldier_wood";
+this addVest "za_vst_carrierlite_Wood"; or this addVest "za_vst_carrier_wood";
+this addBackpack "za_bag_carryallmedic_wood"; or this addBackpack "za_bag_carryall_wood";
+this addHeadgear "za_hel_enh_wood";
+Snow Codes
+
+this forceAddUniform "za_fat1_soldier_snow"; or this forceAddUniform "za_fat2_soldier_snow";
+this addVest "za_vst_carrierlite_snow"; or this addVest "za_vst_carrier_snow";
+this addBackpack "za_bag_carryallmedic_snow"; or this addBackpack "za_bag_carryall_snow";
+this addHeadgear "za_hel_enh_snow";
+Arid Codes
+
+this forceAddUniform "za_fat1_soldier_arid"; or this forceAddUniform "za_fat2_soldier_arid";
+this addVest "za_vst_carrierlite_arid"; or this addVest "za_vst_carrier_arid";
+this addBackpack "za_bag_carryallmedic_arid"; or this addBackpack "za_bag_carryall_arid";
+this addHeadgear "za_hel_enh_arid";
+Transitional Codes
+
+this forceAddUniform "za_fat1_soldier_trans"; or this forceAddUniform "za_fat2_soldier_trans";
+this addVest "za_vst_carrierlite_trans"; or this addVest "za_vst_carrier_trans";
+this addBackpack "za_bag_carryallmedic_trans"; or this addBackpack "za_bag_carryall_trans";
+this addHeadgear "za_hel_enh_trans";
